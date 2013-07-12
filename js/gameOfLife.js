@@ -44,7 +44,6 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     $scope.stop = function(){
         $timeout.cancel(cancelRefresh);
-
     };
 
 
@@ -73,23 +72,14 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
     //game rules
     //якщо у живої клітини два чи три сусіди – то вона лишається жити;
     function willLive(board, row, cell) {
-        if (inBoard(board, row, cell)
-            && neighbours(board, row, cell) >= 2
-            && neighbours(board, row, cell) <= 3){
-            return true;
-        }else{
-            return false;
-        }
-
+            return (inBoard(board, row, cell)
+                && neighbours(board, row, cell) >= 2
+                && neighbours(board, row, cell) <= 3);
     }
     //якщо у мертвої клітини рівно три сусіди – то вона оживає.
     function newCell(board, row, cell) {
-        if (!inBoard(board, row, cell)
-            && neighbours(board, row, cell) == 3){
-            return true;
-        }else{
-            return false;
-        }
+            return (!inBoard(board, row, cell)
+                && neighbours(board, row, cell) == 3);
     }
 
     //neighbours count
@@ -109,14 +99,9 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     //cells only in board
     function inBoard(board, row, cell) {
-        if (row >= 0   && row < board.length &&
-            cell >= 0  && cell < board[row].length &&
-            board[row][cell])
-        {
-            return true;
-        }else{
-            return false;
-        }
+            return (row >= 0   && row < board.length &&
+                cell >= 0  && cell < board[row].length &&
+                board[row][cell]);
     }
 
 
