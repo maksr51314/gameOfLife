@@ -44,9 +44,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     $scope.stop = function(){
         $timeout.cancel(cancelRefresh);
-      /*  $scope.$on('$destroy', function(e) {
 
-        });*/
     };
 
 
