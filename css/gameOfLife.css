@@ -1,0 +1,27 @@
+table#board{
+    border:5px solid #333;
+}
+table#board td {
+    background:#fff;
+    background:-moz-linear-gradient(top, #fff, #eee);
+    background:-webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#eee));
+    box-shadow:inset 0 0 0 1px #fff;
+    -moz-box-shadow:inset 0 0 0 1px #fff;
+    -webkit-box-shadow:inset 0 0 0 1px #fff;
+    height:2em;
+    text-align:center;
+    vertical-align:middle;
+    width:2em;
+}
+
+.chooseCell{
+    padding: 0.4em 0.6em;
+    height: 1em;
+    width: 1em;
+    color: #3f9bd7;
+    background: #3f9bd7;
+    -moz-box-shadow: 0px 3px 52px #000000;
+    -webkit-box-shadow: 0px 3px 52px #000000;
+    box-shadow: 0px 3px 52px #000000;
+
+}
