@@ -6,13 +6,17 @@
 </head>
 <body>
 
-Height: <input type="text" ng-model="height"/>
-Width: <input type="text" ng-model="width"/>
-<button ng-click="newGame()">New</button>
-<button ng-click="next()">Next</button>
+
 
 <div ng-controller="GameOfLifeCntl">
+
+    <span>height</span><input type="text" ng-model="height"/>
+    <span>width</span> <input type="text" ng-model="width"/>
+    <button ng-click="newGame()">Create table</button>
     <button ng-click="next()">Next</button>
+
+    <button ng-click="start()">Start</button>
+    <button ng-click="stop()">Stop</button>
 
     <table id="board">
         <tr ng-repeat="row in board">

@@ -1,6 +1,6 @@
 var app = angular.module("gameOfLife", []);
 
-app.controller ('GameOfLifeCntl', function($scope){
+app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     //settings
     $scope.height = $scope.width = 20;
@@ -25,11 +25,31 @@ app.controller ('GameOfLifeCntl', function($scope){
         }
         return board;
     }
+    // create default settings
+    (function(){
+        $scope.newGame()
+    })();
 
     //next step
     $scope.next = function () {
         $scope.board = computeNext($scope.board);
     };
+    //auto create
+    $scope.start = function(){
+        cancelRefresh = $timeout(function myFunction() {
+            $scope.next();
+            cancelRefresh = $timeout(myFunction,500);
+        },500);
+    };
+
+    $scope.stop = function(){
+        $timeout.cancel(cancelRefresh);
+      /*  $scope.$on('$destroy', function(e) {
+
+        });*/
+    };
+
+
     //create new figure
     function computeNext(board) {
         var newBoard = [];
@@ -89,6 +109,7 @@ app.controller ('GameOfLifeCntl', function($scope){
         return n;
     }
 
+    //cells only in board
     function inBoard(board, row, cell) {
         if (row >= 0   && row < board.length &&
             cell >= 0  && cell < board[row].length &&
@@ -99,5 +120,7 @@ app.controller ('GameOfLifeCntl', function($scope){
             return false;
         }
     }
+
+
 
 });
