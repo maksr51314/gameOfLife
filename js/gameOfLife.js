@@ -70,13 +70,13 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
 
     //game rules
-    //якщо у живої клітини два чи три сусіди – то вона лишається жити;
+    
     function willLive(board, row, cell) {
             return (inBoard(board, row, cell)
                 && neighbours(board, row, cell) >= 2
                 && neighbours(board, row, cell) <= 3);
     }
-    //якщо у мертвої клітини рівно три сусіди – то вона оживає.
+
     function newCell(board, row, cell) {
             return (!inBoard(board, row, cell)
                 && neighbours(board, row, cell) == 3);
