@@ -10,6 +10,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
         $scope.history = [];
         $scope.board = init($scope.height, $scope.width);
     };
+
     //build new board
     function init(height, width) {
         var board = [];
@@ -28,9 +29,9 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
     }
 
     // create default settings
-    (function(){
-        $scope.newGame()
-    })();
+
+    $scope.newGame();
+
 
     //next step
     $scope.next = function () {
@@ -72,6 +73,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
         }else{
             alert("end");
             $scope.newGame();
+            return newBoard;
         }
     }
 
