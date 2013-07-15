@@ -5,8 +5,8 @@
     <ignored path="gameOfLife.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373871807352" ignored="false" />
-    <file path="/index.html" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373874000751" ignored="false" />
-    <file path="/gameOfLife.js" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373879864779" ignored="false" />
+    <file path="/index.html" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373881780017" ignored="false" />
+    <file path="/gameOfLife.js" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373881433880" ignored="false" />
     <file path="/gameOfLife.css" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373629793761" ignored="false" />
     <file path="/kk.js" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373872678770" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,19 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="32" selection-start="886" selection-end="886" vertical-scroll-proportion="-12.961538">
+            <state line="35" column="0" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.7930435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameOfLife.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gameOfLife.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/gameOfLife.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="25" selection-start="2220" selection-end="2220" vertical-scroll-proportion="2.2911813">
+            <state line="45" column="0" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-30.12">
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
         <option value="$PROJECT_DIR$/css/gameOfLife.css" />
         <option value="$PROJECT_DIR$/kk.js" />
         <option value="$PROJECT_DIR$/js/пп.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/gameOfLife.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -202,13 +202,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16057234" sideWeight="0.9602544" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16057234" sideWeight="0.9602544" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -357,16 +357,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/gameOfLife.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="886" selection-end="886" vertical-scroll-proportion="-12.961538">
+        <state line="45" column="0" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-30.12">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/gameOfLife.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="25" selection-start="2220" selection-end="2220" vertical-scroll-proportion="2.2911813">
+        <state line="35" column="0" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.7930435">
           <folding />
         </state>
       </provider>

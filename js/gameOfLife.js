@@ -7,7 +7,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     //start Game
     $scope.newGame = function () {
-//        $scope.history = [];
+        $scope.history = [];
         $scope.board = init($scope.height, $scope.width);
     };
     //build new board
@@ -33,7 +33,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     //next step
     $scope.next = function () {
-//        $scope.history.push($scope.board);
+        $scope.history.push($scope.board);
         $scope.board = computeNext($scope.board);
     };
     //auto create
@@ -44,15 +44,9 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
         },500);
     };
 
-    $scope.step = function (count) {
-        count = 3;
-        for (var i = 0; i<=count; i++ ){
-            cancelTime= $timeout(function myFunction() {
-                $scope.next();
-                cancelTime = $timeout(myFunction,500);
-            },500);
-        }
-        $timeout.cancel(cancelTime);
+    $scope.step = function (index) {
+        $scope.board = $scope.history[index];
+        $scope.history = $scope.history.slice(0, index);
     };
 
     $scope.stop = function(){
@@ -72,12 +66,9 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
                 newBoard.push(newRow);
             }
         if (checkBoard(newBoard)){
-            return checkBoard(newBoard)
-        }else{
-            alert("Bla");
-            return $scope.newGame();
-        }
+            return checkBoard(newBoard)}
     }
+
     function checkBoard(newBoard){
         var time = false;
         for (var r = 0 ; r < newBoard.length ; r++) {
@@ -91,7 +82,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
             return newBoard;
         }else{
             alert("end");
-            return false;
+
         }
 
     }
@@ -136,7 +127,5 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
                 cell >= 0  && cell < board[row].length &&
                 board[row][cell]);
     }
-
-
 
 });

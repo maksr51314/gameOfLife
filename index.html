@@ -26,8 +26,14 @@
             </td>
         </tr>
     </table>
-    <input type="number" ng-click="step"> {{step}}\
-    <button ng-click="step">Step</button>
+
+    <p ng-show="history.length > 0">Steps</p>
+    <table class="history">
+        <tr>
+            <td ng-repeat="step in history" ng-click="$parent.step($index)">{{$index}}</td>
+        </tr>
+    </table>
+
 </div>
 
 <!-- connect scripts -->
