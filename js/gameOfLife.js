@@ -26,6 +26,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
         }
         return board;
     }
+
     // create default settings
     (function(){
         $scope.newGame()
@@ -36,6 +37,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
         $scope.history.push($scope.board);
         $scope.board = computeNext($scope.board);
     };
+    var cancelRefresh;
     //auto create
     $scope.start = function(){
         cancelRefresh = $timeout(function myFunction() {
@@ -66,7 +68,10 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
                 newBoard.push(newRow);
             }
         if (checkBoard(newBoard)){
-            return checkBoard(newBoard)}
+            return newBoard;
+        }else{
+            alert("end");
+        }
     }
 
     function checkBoard(newBoard){
@@ -78,13 +83,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
                 }
             }
         }
-        if (time){
-            return newBoard;
-        }else{
-            alert("end");
-
-        }
-
+    return time;
     }
 
     //chick choose
