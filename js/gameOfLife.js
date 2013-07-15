@@ -3,10 +3,11 @@ var app = angular.module("gameOfLife", []);
 app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     //settings
-    $scope.height = $scope.width = 20;
+    $scope.height = $scope.width = 10;
 
     //start Game
     $scope.newGame = function () {
+//        $scope.history = [];
         $scope.board = init($scope.height, $scope.width);
     };
     //build new board
@@ -32,6 +33,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     //next step
     $scope.next = function () {
+//        $scope.history.push($scope.board);
         $scope.board = computeNext($scope.board);
     };
     //auto create
@@ -42,35 +44,66 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
         },500);
     };
 
+    $scope.step = function (count) {
+        count = 3;
+        for (var i = 0; i<=count; i++ ){
+            cancelTime= $timeout(function myFunction() {
+                $scope.next();
+                cancelTime = $timeout(myFunction,500);
+            },500);
+        }
+        $timeout.cancel(cancelTime);
+    };
+
     $scope.stop = function(){
         $timeout.cancel(cancelRefresh);
     };
 
-
     //create new figure
     function computeNext(board) {
         var newBoard = [];
-        //r -row
-        for (var r = 0 ; r < board.length ; r++) {
-            var newRow = [];
-            //c -cell
-            for (var c = 0 ; c < board[r].length ; c++) {
-                newRow.push(willLive(board, r, c) || newCell(board, r, c));
+            //r -row
+            for (var r = 0 ; r < board.length ; r++) {
+                var newRow = [];
+                //c -cell
+                for (var c = 0 ; c < board[r].length ; c++) {
+                    newRow.push(willLive(board, r, c) || newCell(board, r, c));
+                }
+                newBoard.push(newRow);
             }
-            newBoard.push(newRow);
+        if (checkBoard(newBoard)){
+            return checkBoard(newBoard)
+        }else{
+            alert("Bla");
+            return $scope.newGame();
         }
-        return newBoard;
+    }
+    function checkBoard(newBoard){
+        var time = false;
+        for (var r = 0 ; r < newBoard.length ; r++) {
+            for (var c = 0 ; c < newBoard[r].length ; c++) {
+                if (newBoard[r][c] == true){
+                    time = true;
+                }
+            }
+        }
+        if (time){
+            return newBoard;
+        }else{
+            alert("end");
+            return false;
+        }
+
     }
 
     //chick choose
     $scope.toggle = function (row, cell) {
+        $scope.history = []; // new points - new history
         $scope.board[row][cell] = !$scope.board[row][cell];
         console.log("You die or live new cell");
     };
 
-
     //game rules
-    
     function willLive(board, row, cell) {
             return (inBoard(board, row, cell)
                 && neighbours(board, row, cell) >= 2

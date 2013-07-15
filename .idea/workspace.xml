@@ -4,10 +4,11 @@
     <list default="true" id="8c3844ac-3cd9-48bd-964d-189f00047eaf" name="Default" comment="" />
     <ignored path="gameOfLife.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373620090551" ignored="false" />
-    <file path="/index.html" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373633976962" ignored="false" />
-    <file path="/gameOfLife.js" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373635272541" ignored="false" />
+    <file path="/Dummy.txt" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373871807352" ignored="false" />
+    <file path="/index.html" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373874000751" ignored="false" />
+    <file path="/gameOfLife.js" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373879864779" ignored="false" />
     <file path="/gameOfLife.css" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373629793761" ignored="false" />
+    <file path="/kk.js" changelist="8c3844ac-3cd9-48bd-964d-189f00047eaf" time="1373872678770" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,28 +33,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gameOfLife.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/gameOfLife.js">
+      <file leaf-file-name="пп.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/пп.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="4" selection-start="1798" selection-end="1798" vertical-scroll-proportion="-0.23529412">
-              <folding />
+            <state line="238" column="25" selection-start="10442" selection-end="10442" vertical-scroll-proportion="-100.69231">
+              <folding>
+                <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#7;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#8;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#8;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#10;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#10;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#11;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#11;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="kk.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kk.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="551" column="18" selection-start="23365" selection-end="23365" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +84,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="485" selection-end="485" vertical-scroll-proportion="-2.8235295">
+            <state line="29" column="32" selection-start="886" selection-end="886" vertical-scroll-proportion="-12.961538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameOfLife.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/gameOfLife.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="25" selection-start="2220" selection-end="2220" vertical-scroll-proportion="2.2911813">
               <folding />
             </state>
           </provider>
@@ -97,11 +119,13 @@
       <list>
         <option value="$PROJECT_DIR$/css/gameOfLife.css" />
         <option value="$PROJECT_DIR$/kk.js" />
+        <option value="$PROJECT_DIR$/js/пп.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/gameOfLife.js" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="54" />
     <option name="y" value="-8" />
@@ -134,6 +158,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,11 +193,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Новая папка" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,6 +214,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8c3844ac-3cd9-48bd-964d-189f00047eaf" name="Default" comment="" />
@@ -196,23 +243,23 @@
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11685215" sideWeight="0.9602544" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16057234" sideWeight="0.9602544" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -276,9 +323,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/gameOfLife.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="30" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/gameOfLife.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="1" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="33" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gameOfLife.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -292,21 +360,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/gameOfLife.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="485" selection-end="485" vertical-scroll-proportion="-2.8235295">
+        <state line="18" column="20" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/пп.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="25" selection-start="10442" selection-end="10442" vertical-scroll-proportion="-100.69231">
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#5;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#6;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#7;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#8;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#8;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#10;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#10;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#11;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#11;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/gameOfLife.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="551" column="18" selection-start="23365" selection-end="23365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="32" selection-start="886" selection-end="886" vertical-scroll-proportion="-12.961538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/gameOfLife.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="4" selection-start="1798" selection-end="1798" vertical-scroll-proportion="-0.23529412">
+        <state line="81" column="25" selection-start="2220" selection-end="2220" vertical-scroll-proportion="2.2911813">
           <folding />
         </state>
       </provider>
