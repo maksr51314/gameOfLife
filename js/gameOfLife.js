@@ -71,7 +71,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
         if (checkBoard(newBoard)){
             return newBoard;
         }else{
-            alert("end");
+            alert("Game over");
             $scope.newGame();
             return newBoard;
         }
