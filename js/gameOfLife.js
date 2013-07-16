@@ -1,12 +1,13 @@
 var app = angular.module("gameOfLife", []);
 
 app.controller ('GameOfLifeCntl', function($scope, $timeout){
-
+    var historyArray = [];
     //settings
     $scope.height = $scope.width = 10;
 
     //start Game
     $scope.newGame = function () {
+        historyArray = [];
         $scope.history = [];
         $scope.board = init($scope.height, $scope.width);
     };
@@ -31,7 +32,6 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
     // create default settings
 
     $scope.newGame();
-
 
     //next step
     $scope.next = function () {
@@ -79,6 +79,7 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
 
     function checkBoard(newBoard){
         var time = false;
+
         for (var r = 0 ; r < newBoard.length ; r++) {
             for (var c = 0 ; c < newBoard[r].length ; c++) {
                 if (newBoard[r][c] == true){
@@ -86,7 +87,16 @@ app.controller ('GameOfLifeCntl', function($scope, $timeout){
                 }
             }
         }
-    return time;
+
+        historyArray.push(hex_sha1(newBoard.toString()));
+
+        for (var i = 0; i <= historyArray.length-2; i++){
+            if (historyArray[i] == historyArray[historyArray.length - 1]){
+                time = false;
+            }
+        }
+
+        return time;
     }
 
     //chick choose
